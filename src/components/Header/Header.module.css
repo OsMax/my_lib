@@ -1,0 +1,11 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  box-sizing: border-box;
+}
+.headerContainer {
+  position: relative;
+  margin: 0 auto;
+}
