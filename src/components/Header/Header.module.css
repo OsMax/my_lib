@@ -5,7 +5,33 @@
   z-index: 999;
   box-sizing: border-box;
 }
+
 .headerContainer {
   position: relative;
   margin: 0 auto;
+}
+
+.navContainer {
+  box-sizing: border-box;
+  display: flex;
+  padding: 8px 10px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-color: #555;
+  background-color: #282c33;
+}
+
+.logo {
+  display: flex;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
 }
