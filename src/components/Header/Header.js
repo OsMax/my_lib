@@ -10,7 +10,7 @@ const setAtive = ({ isActive }) => (isActive ? css.active : css.navLink);
 const Header = () => {
   return (
     <header>
-      <div>Header test</div>
+      <div>Header test 2</div>
     </header>
   );
 };
