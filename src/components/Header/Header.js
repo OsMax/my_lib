@@ -10,7 +10,11 @@ import css from "./Header.module.css";
 const Header = () => {
   return (
     <header className={css.header}>
-      <div>Header test 2</div>
+      <div className={css.headerContainer}>
+        <a href="" className={css.logo}>
+          <span className={css.logoSpan}>My</span>Lib
+        </a>
+      </div>
     </header>
   );
 };
